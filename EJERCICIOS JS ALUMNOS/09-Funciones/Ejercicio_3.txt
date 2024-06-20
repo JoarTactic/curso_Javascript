@@ -1,0 +1,21 @@
+//Romero Cervantes Jorge Arturo
+//ACTIVIDAD
+//Crear un nuevo array llave y valor (contexto libre)
+//Recorrero con map y foreach usando funciones flecha
+
+const librero = [
+    {nombre : '20000 de Viaje Submarino', autor : 'Julio Verne'},
+    {nombre : 'El principito', autor : 'Antoine Marie'},
+    {nombre : 'El Necronomicón', autor : 'H.P. Lovecraft'},
+];
+
+const arrayLibros = librero.map(libro => {
+    return {libro: libro.nombre, autor: libro.autor}
+});
+console.log(arrayLibros);
+
+arrayLibros.forEach(libro => {
+    console.log(`Libro: ${libro.libro} Autor: ${libro.autor}`);
+});
+
+//No me dio tiempo a subirla justo a las 12:00, espero no haya problema

@@ -1,0 +1,12 @@
+Freeze congela objetos
+Seal permite agregar y eliminar cosas al objeto, pero no editar
+
+Template strings (``) sirve para poner nuestro contenido de alguna variable
+
+¿El operador estricto solo compara el valor? Falso
+
+
+El método para sellar un objeto es Seal
+Para congelar es Freezer
+
+Unir dos o más objetos: ...(objeto1, ...objeto2)
